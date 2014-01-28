@@ -1,0 +1,641 @@
+/*
+Design by Free CSS Templates
+http://www.freecsstemplates.org
+Released for free under a Creative Commons Attribution 2.5 License
+*/
+@import url(fancybox.css);
+@import url(jquery.tablescroll.css);
+body {
+	margin: 0;
+	padding: 0;
+	background: #FFFFFF url(../images/img03.gif) repeat-x left top;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	color: #787878;
+}
+
+h1, h2, h3 {
+	margin: 0;
+	padding: 0;
+	font-weight: normal;
+	color: #000000;
+}
+
+h1 {
+	font-size: 2em;
+}
+
+h2 {
+	font-size: 2.4em;
+}
+
+h3 {
+	font-size: 1.6em;
+}
+
+p, ul, ol {
+	margin-top: 0;
+	line-height: 180%;
+}
+
+a {
+	text-decoration: none;
+	color: #7EAD01;
+}
+
+a:hover {
+text-decoration:none;
+}
+
+#wrapper {
+	width: 980px;
+	margin: 0 auto;
+	padding: 0;
+}
+
+/* Header */
+
+#header {
+	clear: both;
+	width: 980px;
+	height: 330px;
+	margin: 0 auto;
+	padding: 0px;
+	background: url(../images/img06.jpg) no-repeat left top;
+}
+
+/* Logo */
+
+#logo {
+	margin: 0;
+	padding: 0;
+	color: #000000;
+}
+
+#logo h1, #logo p {
+	margin: 0;
+	padding: 0;
+}
+
+#logo h1 {
+	padding-top: 160px;
+	padding-left: 45px;
+	letter-spacing: -1px;
+	font-size: 3.4em;
+}
+
+#logo p {
+	margin: 0;
+	padding: 0px 0 0 50px;
+	font: normal 14px Georgia, "Times New Roman", Times, serif;
+	font-style: italic;
+	color: #FFFFFF;
+} 
+
+#logo a {
+	border: none;
+	background: none;
+	text-decoration: none;
+	color: #FFFFFF;
+}
+
+/* Search */
+
+#search {
+	float: right;
+	width: 250px;
+	height: 50px;
+	padding: 10px 0px 0px 0px;
+	background: #E2E2E2;
+	border-bottom: 4px solid #FFFFFF;
+}
+
+#search form {
+	height: 40px;
+	margin: 0;
+	padding: 10px 0 0 20px;
+}
+
+#search fieldset {
+	margin: 0;
+	padding: 0;
+	border: none;
+}
+
+#search-text {
+	width: 150px;
+	padding: 6px 5px 2px 5px;
+	border: 1px solid #DEDEDE;
+	background: #FFFFFF;
+	text-transform: lowercase;
+	font: normal 11px Arial, Helvetica, sans-serif;
+	color: #5D781D;
+}
+
+#search-submit {
+	width: 50px;
+	height: 22px;
+	border: none;
+	background: #B9B9B9;
+	color: #000000;
+}
+
+/* Menu */
+
+#menu {
+	width: 940px;
+	height: 80px;
+	margin: 0 auto;
+	padding: 0;
+}
+
+#menu ul {
+	margin: 0;
+	padding: 0px;
+	list-style: none;
+	line-height: normal;
+}
+
+#menu li {
+	float: left;
+}
+
+#menu a {
+	display: block;
+	height: 35px;
+	margin-right: 1px;
+	padding: 16px 40px 0px 40px;
+	background: url(../images/img04.gif) no-repeat right top;
+	text-decoration: none;
+	text-align: center;
+	text-transform: uppercase;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	font-weight: bold;
+	color: #000000;
+	border: none;
+}
+
+#menu a:hover, #menu .current_page_item a {
+	background: url(../images/img05.gif) repeat-x left top;
+	text-decoration: none;
+	color: #FFFFFF;
+}
+
+#menu .current_page_item a {
+}
+
+/* Page */
+
+#page {
+	width: 940px;
+	margin: 0 auto;
+	padding: 10px 0;
+}
+/* Content */
+#content h2{
+font-size: 2.2em;
+border-bottom:2px green dotted;
+	font-variant: small-caps;
+	color: green;
+	font-weight: bold;
+	padding:4px;
+}
+
+#content {
+	display: block;
+	float: left;
+	clear: left;
+	width: 650px;
+	padding: 0;
+	margin: 0 0 20px 0;
+	clear: both;
+	text-align: justify;
+	font-size: 0.9em;
+}
+#content p {
+	padding: 5px 0  5px 5px;
+}
+
+#content ul, #content ol {
+	padding-right: 5px;
+	padding-bottom: 10px;
+	padding-top: 5px;
+	margin-left: 0;
+}
+
+#content ul li {
+	background: url(../images/bullet.jpg) 0 3px no-repeat;
+	padding-left: 15px;
+	padding-bottom: 5px;
+}
+
+#content a img {
+  border: none;/*remove border for linked images*/
+  background-color: #fff;
+	padding: 0px;
+	margin: 3px 5px 3px 0;
+	border: 1px solid #0066B3;
+	float: left;
+	-moz-border-radius:4px;
+	-webkit-border-radius:4px;
+}
+
+#content .garisbawah {
+	padding-bottom: 5px;
+	border-bottom: 1px dotted #CCC;
+}
+#content .judul {
+	font-family: Georgia;
+	font-size: 14px;
+	line-height: 170%;
+	font-weight: bold;
+	color: #EE1C24;
+}
+#content .tanggal {
+	font-size: 10px;
+	line-height: 135%;
+	font-style: italic;
+}
+#content .posting {
+	font-size: 11px;
+}
+#content .judulhead {
+	font-size: 1.2em;
+	font-variant: small-caps;
+	color: #65C80B;
+	font-weight: bold;
+}
+#content .judul_head {
+	font-family: Georgia;
+	font-size: 12px;
+}
+#content .image {
+	background-color: #fff;
+	padding: 2px;
+	margin: 3px 5px 3px 0;
+	border: 1px solid #CCC;
+	float: left;
+}
+#content .tgl_post{
+	font-family:Tahoma;
+	font-size:12px;
+	padding-left:4px;
+	color:#FF6600;
+}
+#bag-kiri{
+	float: left;
+	width: 300px;
+}
+#bag-kanan{
+	float: right;
+	width: 330px;
+}
+#content-detail{
+	float: left;
+	width: 600px;
+}
+
+/* Sidebar */
+
+#sidebar {
+	float: right;
+	width: 250px;
+	margin: 0px;
+	padding-left: 10px;
+	color: #787878;
+	display: block;
+	background: url(../images/sidebar_bg.jpg) no-repeat 0 0;
+}
+#sidebar h2 {
+	font-variant: small-caps;
+	color: #7EAD01;
+	width: 255px;
+	font-weight: bold;
+	margin:0;
+}
+#sidebar ul {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+
+#sidebar li {
+	margin: 0;
+	padding: 0;
+}
+
+#sidebar li ul {
+	margin: 0px 0px;
+	padding-bottom: 10px;
+}
+
+#sidebar li li {
+	line-height: 35px;
+	background: url(../images/img02.gif) repeat-x left bottom;
+	margin: 0px 30px;
+	border-left: none;
+}
+
+#sidebar li li a {
+	padding-left: 10px;
+	background: url(../images/img01.gif) no-repeat left 6px;
+}
+
+#sidebar li li span {
+	display: block;
+	margin-top: -20px;
+	padding: 0;
+	font-size: 11px;
+	font-style: italic;
+}
+
+#sidebar h2 {
+	height: 38px;
+	padding-left: 0;
+	letter-spacing: -.5px;
+	font-size: 1.8em;
+}
+
+#sidebar p {
+	margin: 0 0px;
+	padding: 0px 30px 20px 30px;
+	text-align: justify;
+}
+
+#sidebar a {
+	border: none;
+}
+
+#sidebar a:hover {
+	text-decoration: underline;
+	color: #8A8A8A;
+}
+
+#sidebar .garisbawah {
+	padding-bottom: 5px;
+	border-bottom: 1px dotted #CCC;
+}
+#sidebar .tanggal {
+	font-size: 10px;
+	line-height: 135%;
+	font-style: italic;
+	color: #FF6600;
+}
+
+#kotakjudul{
+	background: url(../images/mainnav-bg.gif) repeat-x;
+	margin: 0px;
+	padding: 5px;
+	border-top: 1px solid #CCC;
+	border-left: 1px solid #CCC;
+	border-right: 1px solid #CCC;
+  border-bottom: none;          
+}
+#kotakisi{
+	padding: 4px;
+	border: 1px solid #CCC;
+	text-align: justify;
+}
+
+/* Footer */
+
+#footer {
+	height: 40px;
+	margin: 0 auto;
+	padding: 0px 0 5px 0;
+	background: #ECECEC;
+	border-top: 1px solid #DEDEDE;
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+#footer p {
+	margin: 0;
+	padding-top: 20px;
+	line-height: normal;
+	font-size: 9px;
+	text-transform: uppercase;
+	text-align: center;
+	color: #A0A0A0;
+}
+
+#footer a {
+	color: #8A8A8A;
+}
+
+/* Headline */
+   #slideshow{
+    width: 150px;
+    display: block;
+    left:0px;
+  } 
+	 #slideshow a:link,#slideshow a:visited{
+	  display: inline;
+	  float: left;
+	  display: block;
+	  cursor: pointer;
+	 	text-decoration: none; /* hilangkan garis bawah pada link */
+	 	font: bold 85% Arial, Helvetica, sans-serif;
+    border: 2px solid #333;
+    -moz-border-radius:2px;
+    -webkit-border-radius:3px;
+	 	margin-left:5px; /* memberi jarak antar link */
+	 	padding: 1px 4px; /* menjadikan link seperti kotak */
+	  background-color: #000;
+	  color: #FFF;
+	 }
+	 /* link yang dilalui oleh mouse dan element dengan class='selected' akan mempunyai efek yang sama */
+	 #slideshow a:hover,#slideshow a:active,.selected{ 
+	    background-color: #FC0;
+	    color: #FFF;
+	 }
+
+	 #slideContent{
+	 	margin-top:15px;
+	 	padding: 4px;
+	 }
+	 #slideContent div{ 
+	 	/* semua div di dalam element dengan id='slideContent' akan di sembunyikan sementara */
+	 	display:none
+	 }	
+
+   /* caption link teks */
+	 .t{
+      width:280px; position:relative; height:20px; top:0; left:0px; 	 
+      padding: 5px 10px; 
+      font-size:123.1%; border-top: 1px solid #000; border-bottom: 1px solid #666;
+      background: #000;filter:alpha(opacity=75);-moz-opacity:.75;opacity:.75;
+	 	  display:block
+	 } 
+.t a{text-decoration: none;color:#FC0; font-weight:bold}
+.t a:hover{color:#FFF; text-decoration:none}
+
+/* tabs */
+#tabsview {
+    display: block;
+    float: left;
+    width:auto;
+	font-size:10px;
+}
+.panel {
+    border: 1px green groove;
+    border-top: none;
+    background-color: white;
+    padding: 3px 0 0 0px;
+    width: auto;
+    overflow: auto;
+    clear: left;
+}
+.tab_bdr {
+    padding: 0px;
+    width: auto;
+    border: 0px;
+    border: 1px solid #7EAD01;
+    height: 4px;
+    margin:0px;
+    background: #7EAD01;
+    clear: left;
+    font-size: 0px;
+}
+.tab {
+	-moz-border-radius-topleft:6px;
+	-moz-border-radius-topright:6px;
+    font-size: 12px;
+    background:#999;
+    color: #FFF;
+    cursor: pointer;
+    border: none;
+    border-bottom: 1px solid #FFFFFF;
+    height: 19px;
+    padding-top: 3px;
+    margin: 0px;
+    width:auto;
+    float: left;
+    text-decoration: none;
+  	font-weight:bold;
+}
+.tab_sel {
+    -moz-border-radius-topleft:6px;
+	  -moz-border-radius-topright:6px;
+	  font-weight:bold;
+    font-size: 12px;
+    background: #7EAD01;
+    color: #FFFFFF;
+    cursor: pointer;
+    border: none;
+    border-bottom: 1px solid #7EAD01;
+    height: 20px;
+    padding-top: 3px;
+    margin: 0px;
+    width:auto;
+    float: left;
+    text-decoration: none;
+}
+.tabjudul {
+	font-size:14px;
+}
+/* Berita dan Detailnya */
+.judul_head {
+	font-family:Georgia;
+	font-size:14px;
+	font-weight:bold;
+  color:#7EAD01;
+  padding-top:10px;
+  padding-left:4px;
+  padding-bottom: 10px;
+  border-bottom: 2px #7EAD01 solid;
+  border-top: 2px #7EAD01 solid;
+} 
+#detail .judul {
+	font-family:Tahoma;
+	font-size:22px;
+	font-weight:bold;
+	color:green;
+	padding-left:4px;
+}
+#detail .tgl_post{
+	font-family:Tahoma;
+	font-size:12px;
+	padding-left:4px;
+	color:#FF6600;
+}
+.isi {
+	font-family:Tahoma;
+	font-size:11px;
+	padding-left:4px;
+	padding-bottom: 20px;
+	text-align:justify;
+	line-height: 18px;
+	border-bottom: 1px green dotted;
+}
+.kembali {
+	font-family:Tahoma;
+	font-size:11px;
+	padding-left:4px;
+	text-align:center;
+}
+
+/* sekilas info*/
+#sekilasinfo{
+	height:220px;
+	width:250px;
+	overflow:hidden;
+	border:solid 1px #7EAD01;
+	padding-bottom: 13px;
+}
+#sekilasinfo li{
+	border:1px dotted #DEDEDE;
+	margin:0; padding:0; list-style:none;
+}
+
+#sekilasinfo li{
+	height:60px;
+	padding:5px;
+	list-style:none;
+}
+#sekilasinfo .news-text{
+	display:block;
+	font-size:11px;
+	margin-top:4px;
+}
+#sekilasinfo img{
+	float:left;
+	margin-right:10px;
+	padding:2px;
+	border:solid 1px #DEDEDE;
+}	
+
+/* widget */
+#widget{
+	width:250px;
+	overflow:hidden;
+	border:solid 1px #7EAD01;
+	padding-bottom: 13px;
+}
+#widget p{
+text-align:center;
+}
+#widget a:hover{
+text-decoration:none;
+}
+#widget .news-title{
+	font-weight:bold;
+	margin-bottom:4px;
+	font-size:12px;
+	padding-left:5px;
+	padding-top: 5px;
+}
+#widget .news-text{
+	font-size:12px;
+	color:#333;
+	padding-left:10px;
+}
+#widget .news-title2{
+	font-weight:bold;
+	padding-left:75px;
+	font-size:12px;
+}
+.kecil{
+max-width: 150px;
+max-height: 150px;	
+	}

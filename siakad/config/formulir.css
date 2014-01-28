@@ -1,0 +1,28 @@
+.formulir fieldset{
+width: 96%;
+margin-top: 5px;
+padding-top: 5px;
+border: 1px green solid;
+}
+.formulir fieldset legend{
+	padding: 2px 5px 2px 5px;
+	color: green;
+	margin: 0 auto;
+	border: 1px green solid;
+	-moz-border-radius: 7px;	
+	}
+.formulir label{
+	width: 130px;
+	padding-left: 5px;
+	margin: 5px;
+	float: left;
+	text-align: left;
+	}
+.formulir input,textarea,select{
+	margin: 5px;
+	padding: 0;
+	float: left;
+	}
+.formulir br{
+	clear: left;
+	}

@@ -1,0 +1,83 @@
+<?php
+include "config/koneksi.php";
+include "config/class_paging.php";
+include "config/class_paging2.php";
+$modul=$_GET[opt];
+
+switch($modul){
+default:
+echo "<div id=welcome><h3>Selamat Datang</h3><hr>
+<p>Anda telah masuk ke halaman <b>SIAKAD YPP. Darul Huda</b>. Siswa dapat melihat profil dan nilai raport.
+Guru dapat memasukkan nilai dan melihat profil. Jangan lupa untuk melakukan <b>Logout</b>
+agar tidak terjadi penyalahgunaan dan hal-hal yang tidak diinginkan.</p>&nbsp;
+<img id=gbrlogo src=../images/logo.jpg></div>";
+break;
+
+case "siswa":
+include "mod/mod_siswa.php";
+break;
+
+case "guru":
+include "mod/mod_guru.php";
+break;
+
+case "angkatan":
+include "mod/mod_angkatan.php";
+break;
+
+case "kelas":
+include "mod/mod_kelas.php";
+break;
+
+case "profil_siswa":
+include "mod/mod_profil_siswa.php";
+break;
+
+case "ekstra":
+include "mod/mod_ekstra.php";
+break;
+
+case "profil_guru":
+$ps=mysql_query("SELECT * FROM guru_".$_SESSION[tingkat]." WHERE nama_guru='".$_SESSION[nama_user]."'");
+$fg=mysql_fetch_array($ps);
+echo "<div><img class=profpic src=foto_guru/$fg[gambar] hspace=10 align=left>
+<fieldset>
+	<label>Status</label>            <input type=text readonly=value value=$fg[status]>
+	<label>NIP</label>					<input type=text readonly=value value=$fg[nip]>
+	<label>Nama</label>					<input type=text size=40 readonly=value value='$fg[nama_guru]'>
+	<label>Alamat</label>				<input type=text size=40 readonly=value value='$fg[alamat]'>
+	<label>No. Telp</label>				<input type=text readonly=value value='$fg[telp]'>
+	<label>Tempat, Tgl Lahir</label>	<input type=text readonly=value value='$fg[tmp_lahir]'><input type=text size=10 readonly=value value=$fg[tgl_lahir]>
+	<label>Jenis Kelamin</label>		<input type=text readonly=value value=$fg[jns_kelamin]>
+</fieldset></div>";
+break;
+
+case "input_nilai":
+include "mod/mod_input_nilai.php";
+break;
+
+case "matpel":
+include "mod/mod_matpel.php";
+break;
+
+case "absensi":
+include "mod/mod_absensi.php";
+break;
+
+case "jadwal":
+include "mod/mod_jadwal.php";
+break;
+
+case "nilai":
+include "mod/mod_nilai.php";
+break;
+
+case "user":
+include "mod/mod_user.php";
+break;
+
+case "karyawan":
+include "mod/mod_karyawan.php";
+break;
+}
+?>

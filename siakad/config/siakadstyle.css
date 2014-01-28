@@ -1,0 +1,160 @@
+@import url(dropmenu.css);
+@import url(formulir.css);
+body{
+font-family: Arial, Helvetica, sans-serif;
+}
+a {
+text-decoration: none;
+color: green;
+}
+
+label{
+float: left;
+clear: both;
+width: 110px;
+margin-top: 5px;	
+	}
+input, select{
+float: left;
+margin-top: 5px;
+	}
+
+#wrapper{
+width: 980px;
+margin: 10px auto;
+padding:2px;
+border:2px white groove;
+}
+#isi{
+vertical-align:top;
+width:820px;
+margin-left:150px;
+padding-left:10px;
+padding-top:5px;
+padding-bottom:10px;
+}
+#isi .profpic{
+width: 170;
+height: 220;
+border: 1px black solid;
+float: left;
+clear: right;	
+	}
+/*content*/
+#content{
+width:100%;
+margin:0;
+padding:0;
+}
+#menu{
+width:150px;
+margin:0;
+padding:0;
+}
+#content table{
+font-family: Tahoma; 
+	font-size: 12pt;
+	border: 1px solid #999999;
+	border-collapse: collapse;
+	margin: 5px 5px;
+}
+#content td{
+padding: 2px 4px;
+	vertical-align: top;
+	border: 1px solid #999999;
+	border-collapse: collapse;
+}
+#content th{
+color: #000000;
+	font-size: 7pt;
+	text-transform: uppercase;
+	text-align: center;
+	padding: 0.5em;
+	border: 1px solid #969BA5;
+	border-collapse: collapse;
+	background-color: white;
+}
+#content input,textarea,select{
+	font-family: Tahoma; 
+	font-size: 12pt;
+}
+#content h2{
+padding-left:14px;
+color:white;
+font:bold 16pt sans-serif;
+background-color: #7EAD01;
+}
+
+/*navigasi*/
+
+/*welcome*/
+#welcome p{
+font: normal 12pt Georgia;
+}
+#welcome h3{
+font: normal 22pt Georgia;
+	color: green;
+	background-color: transparent;
+}
+/*header*/
+#header{
+background: url(../images/img06.jpg) no-repeat left top;
+width:980;
+height:332px;
+}
+#header h3, #header p{
+margin: 0;
+padding:0;
+}
+#header h3{
+padding-top: 165px;
+padding-left: 55px;
+letter-spacing: -1px;
+font-size: 2.4em;
+color: white;
+}
+#header p{
+margin: 0;
+	padding: 0px 0 0 50px;
+	font: normal 14px Georgia, "Times New Roman", Times, serif;
+	font-style: italic;
+	color: #FFFFFF;
+}
+
+#login{
+position:relative;
+float:right;
+width:420px;
+border: 2px white groove;
+padding-top: 5px;
+top:115px;
+right:30px;
+background-color:white;
+}
+#footer {
+	height: 40px;
+	margin: 0 auto;
+	padding: 0px 0 5px 0;
+	background: #ECECEC;
+	border-top: 1px solid #DEDEDE;
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+#footer p {
+	margin: 0;
+	padding-top: 15px;
+	line-height: normal;
+	font-size: 11px;
+	text-transform: uppercase;
+	text-align: center;
+	color: #A0A0A0;
+}
+
+#footer a {
+	color: #8A8A8A;
+}
+#gbrlogo{
+width:170px;
+height:170px;
+margin-left:570px;
+}
